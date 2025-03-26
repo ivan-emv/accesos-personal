@@ -5,7 +5,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 # ✅ Configuración de la página
-st.set_page_config(page_title="Centro de Atención al Cliente", layout="wide")
+st.set_page_config(page_title="Accesos Iván", layout="wide")
 
 # 🔧 Ocultar la barra superior y el menú de Streamlit
 hide_streamlit_style = """
