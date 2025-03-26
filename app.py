@@ -27,7 +27,7 @@ client = gspread.authorize(credentials)
 
 # 📂 Cargar datos desde Google Sheets
 SHEET_ID = "1kBLQAdhYbnP8HTUgpr_rmmGEaOdyMU2tI97ogegrGxY"
-SHEET_NAME = "Enlaces"
+SHEET_NAME = "IVAN"
 sheet = client.open_by_key(SHEET_ID).worksheet(SHEET_NAME)
 
 def cargar_enlaces():
