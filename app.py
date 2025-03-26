@@ -100,7 +100,7 @@ with col_enlaces:
 
 # 💰 Calculadora de Reembolsos y botones adicionales (Columna derecha, ahora más estrecha)
 with col_calculadora:
-    st.header("💰 Calculadora de Reembolsos")
+    st.header("💰 Calculadora Reembolsos")
     monto = st.number_input("Monto a devolver", min_value=0.0, format="%.2f")
     porcentaje = st.number_input("% Comisión del proveedor", min_value=0.01, max_value=100.0, format="%.2f")
     if st.button("Calcular"):
