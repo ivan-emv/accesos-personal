@@ -39,7 +39,7 @@ enlaces_df = cargar_enlaces()
 # 🔐 Modo Administrador con usuario y contraseña en la barra lateral dentro de un panel minimizable
 modo_admin = False
 with st.sidebar:
-with st.expander("🔧 Administrador", expanded=False):
+    with st.expander("🔧 Administrador", expanded=False):
         if st.checkbox("Activar Modo Administrador"):
             usuario = st.text_input("👤 Usuario")
             password = st.text_input("🔑 Contraseña", type="password")
